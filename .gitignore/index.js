@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 var prefix = ('t!');
 
-bot.login('Njc2MDUwNzYzOTA2MDIzNDI0.XkAzvg.dmFWscx2vKEU8nlaWKcthDi_f7s');
+bot.login(process.env.TOKEN);
 
 bot.on("message", (message) => {
 
